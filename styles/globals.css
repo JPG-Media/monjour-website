@@ -1,3 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.navbarR3{
+    clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%, 8% 72%, 8% 28%);
+
+
+}
+.navbarR2{
+    clip-path: polygon(0 0, 90% 0, 100% 30%, 100% 70%, 90% 100%, 0 100%, 8% 72%, 8% 28%);
+}
+.navbarR1{
+    clip-path: polygon(0 0, 90% 0, 100% 30%, 100% 70%, 90% 100%, 0 100%);
+}
+
+.navbarL3{
+    clip-path: polygon(0 0, 100% 0, 92% 28%, 92% 72%, 100% 100%, 20% 100%);
+}
+.navbarL2{
+    clip-path: polygon(10% 0, 100% 0, 92% 28%, 92% 72%, 100% 100%, 10% 100%, 0 70%, 0 30%);
+}
+.navbarL1{
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 10% 100%, 0 70%, 0 30%);
+
+}
